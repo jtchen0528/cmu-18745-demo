@@ -94,7 +94,7 @@ function DashboardWrapper(props) {
             <Box
               component="img"
               sx={{ width: 48, height: 48 }}
-              src='/f1tenth-logo.png'
+              src='/cmu-18745-demo/f1tenth-logo.png'
               alt="logo of F1 Tenth"
             />
             <Typography

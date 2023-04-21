@@ -20,7 +20,7 @@ function Navbar() {
             <Box 
               component="img"
               sx={{width: 80, height: 80}}
-              src='/f1tenth-logo.png'
+              src='/cmu-18745-demo/f1tenth-logo.png'
               alt="logo of F1 Tenth"
             />
             <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
