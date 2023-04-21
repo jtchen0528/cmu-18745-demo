@@ -1,0 +1,90 @@
+.Video-Component {
+  width: 75%;
+  min-height: 90%;
+  height: fit-content;
+  margin-bottom: auto;
+  margin-right: 2%;
+
+  display: flex;
+  flex-direction: column;
+
+  justify-content: start;
+}
+
+.Video-Toggle {
+  box-sizing: border-box;
+  width: 100%;
+  height: auto;
+  min-height: 40px;
+  margin-top: 0px;
+  margin-right: auto;
+}
+
+/* Starter code sourced from: https://blog.logrocket.com/how-to-build-tab-component-react/  */
+/* Tab Navigation */
+ul.nav {
+  box-sizing: border-box;
+  width: 100%;
+  display: flex;
+  justify-content: start;
+  /* @media (max-width: 768px) {
+    width: 90%;
+  } */
+
+  background-color: rgb(122, 122, 122);
+  margin-top: 0px;
+  padding-left: 0px;
+}
+
+ul.nav li {
+  width: auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 2%;
+  padding-left: 2%;
+
+  font-size: medium;
+  list-style-type: none;
+  background-color: #00b4d8;
+
+  /* border-top-right-radius: 1rem;
+  border-top-left-radius: 1rem; */
+}
+
+/* ul.nav li:nth-child(2) {
+  border-radius: 0;
+  border-bottom-right-radius: 2rem;
+  border-top-right-radius: 2rem;
+} */
+
+ul.nav li:hover {
+  background: #48cae4;
+  text-decoration: underline;
+}
+ul.nav li.active {
+  background: #90e0ef;
+  text-decoration: underline;
+}
+
+.outlet {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  background-color: white;
+
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+iframe {
+  min-width: 65vw;
+  min-height: 500px;
+
+  margin-left: auto;
+  margin-right: auto;  
+}
+
+iframe {
+  min-width: 65vw;
+  min-height: 500px;
+}
